@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="Heading">Geolocation Tracker</h1>
+    <div>
+      <button class="Record-location" type="button-1" onclick="recordLocation()">Record Location</button>
+      <button class="Clear-button" type="button-2" onclick="clearHistory()">Clear History</button>
+    </div>
+    <h3>Most Recent</h3>
+    <div id="mostRecentContainer">
+      <div class="categories" id="mostRecentItem">
+        <ul>
+          <p class="location">Location #</p><p class="right">Date/Time</p>
+          <p class="location1">Latitude: ---</p>
+          <p class="location1">Longitude: ---</p>
+          <button class="delete_button" type="deletebutton-1">Delete</button>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <button class="show-more showMoreClosed" type="button-3" onclick="showMore()">Show More</button>
+    </div>
+  <div class="content">
+    <div class="Container" id="componentsContainer">
+      <!-- <div class="categories">
+        <ul>
+          <p class="location">Location 3</p>
+          <p class="location1">Latitude:</p>
+          <p class="location1">Longitude:</p>
+          <button class="delete_button" type="deletebutton-2">Delete</button>
+        </ul>
+      </div>
+      <div class="categories">
+        <ul>
+          <p class="location">Location 2</p>
+          <p class="location1">Latitude:</p>
+          <p class="location1">Longitude:</p>
+          <button class="delete_button" type="deletebutton-3">Delete</button>
+        </ul>
+      </div>
+      <div class="categories">
+        <ul>
+          <p class="location">Location 1</p>
+          <p class="location1">Latitude:</p>
+          <p class="location1">Longitude:</p>
+          <button class="delete_button" type="deletebutton-4">Delete</button>
+        </ul>
+      </div> -->
+    </div>
+  </div>
+
+
+
+<!-- Javascript -->
+<script src="index.js"></script>
+</body>
+</html>
